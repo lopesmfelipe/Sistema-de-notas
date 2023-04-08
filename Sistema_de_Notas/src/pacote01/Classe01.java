@@ -2,7 +2,7 @@ package pacote01;
 
 import javax.swing.JOptionPane;
 
-public class Classe01 {
+public class Classe01 { // hello world
 
 	public static void main(String[] args) {
 		String nota1 = JOptionPane.showInputDialog("informe o valor da nota 1");
