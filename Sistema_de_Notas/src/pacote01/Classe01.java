@@ -19,10 +19,10 @@ public class Classe01 {
 		double media = somaNotas / 4;
 		double resto = somaNotas % 4;
 
-		JOptionPane.showMessageDialog(null, "A média do aluno foi: " + media + "."
+		JOptionPane.showMessageDialog(null, "A média do aluno foi: " + media + "."  // Primeiro painél de menssagem
 				+ " E o resto da divisão da quantidade de notas pelas notas foi " + resto);
 
-		if (media > 8) {
+		if (media > 8) {  															// Segundo painél de menssagens
 			JOptionPane.showMessageDialog(null,
 					"Aluno aprovado! Sua média de " + media + " é muito alta, PARABÉNS pelo desempenho");
 		} else if (media >= 7 && media <= 8) {
