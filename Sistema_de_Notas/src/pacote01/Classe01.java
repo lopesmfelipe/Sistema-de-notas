@@ -33,7 +33,6 @@ public class Classe01 {
 			JOptionPane.showMessageDialog(null,
 					"Aluno reprovado. Sua média de " + media + " é muito baixa, procure melhorar seu desempenho");
 		}
-
 	}
 
 }
